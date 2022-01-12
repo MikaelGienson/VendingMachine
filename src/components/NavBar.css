@@ -1,0 +1,19 @@
+.NavBar {
+  background: rgba(69, 90, 100, 1);
+  width: 100%;
+  padding: 1rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+  text-decoration: none;
+}
+
+.NavBar a.active-link {
+  color: green;
+  text-decoration: none;
+}
+
+.active-link {
+  color: white;
+  text-decoration: none;
+}
